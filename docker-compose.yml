@@ -14,31 +14,15 @@ services:
         depends_on:
             - backend
     db:
+        container_name: database2
         image: mysql/mysql-server:8.0.24
         restart: always
         environment:
-            MYSQL_ROOT_PASSWORD: root
-            MYSQL_DATABASE: test_db
+            MYSQL_USER: 'user'
+            MYSQL_ROOT_PASSWORD: 'refun123'
+            MYSQL_DATABASE: mysql-refun
         ports:
-        - "3307:3307"
+            - "3307:3307"
+        command:
         volumes:
-        - /db.sql:/db.sql
-
-#     database:
-#         image: mysql/mysql-server:8.0.24
-#         restart: always
-#         container_name: database2
-#         ports: 
-#             - "3306:3306"
-#         expose:
-#             -'3306'
-#         restart: always
-#         environment:
-#             MYSQL_DATABASE: 'mysql-refun'
-#             MYSQL_USER: 'user'
-#             MYSQL_PASSWORD: 'password'
-#             MYSQL_ROOT_PASSWORD: 'refun123'
-#           volumes:
-#             - db-data:/var/lib/mysql
-# volumes:
-#     db-data:
+            - "./db.sql:/var/lib/mysql"
