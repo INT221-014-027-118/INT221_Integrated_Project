@@ -9,15 +9,18 @@ services:
         build: Front-end
         container_name: frontend
         ports:
-            - 9090:9090
+            - "9090:9090"
         restart: always
         depends_on:
             - backend
     database:
-        image: mysql/mysql-server:latest
+        image: mysql/mysql-server:8.0.24
+        restart: always
         container_name: database2
         ports: 
             - "3306:3306"
+        expose:
+            -'3306'
         restart: always
         environment:
             MYSQL_DATABASE: 'mysql-refun'
@@ -26,3 +29,5 @@ services:
             MYSQL_ROOT_PASSWORD: 'refun123'
           volumes:
             - db-data:/var/lib/mysql
+volumes:
+    db-data:
