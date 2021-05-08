@@ -16,7 +16,7 @@ services:
         depends_on:
             - backend
     database:
-        container_name: database2
+        container_name: database
         image: mysql/mysql-server:8.0.24
         restart: always
         environment:
