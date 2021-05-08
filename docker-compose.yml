@@ -5,6 +5,8 @@ services:
         ports:
             - "9091:9091"
         restart: always
+        depends_on:
+            - database
     frontend:
         build: Front-end
         container_name: frontend
@@ -13,7 +15,7 @@ services:
         restart: always
         depends_on:
             - backend
-    db:
+    database:
         container_name: database2
         image: mysql/mysql-server:8.0.24
         restart: always
