@@ -16,13 +16,14 @@ services:
             - backend
     database:
         image: mysql/mysql-server:8.0.24
+        container_name: database2
         ports: 
             - "3306:3306"
         restart: always
         environment:
-            MYSQL_DATABASE: mysql-refun
-            MYSQL_USER: user
-            MYSQL_PASSWORD: password
-            MYSQL_ROOT_PASSWORD: refun123
+            MYSQL_DATABASE: 'mysql-refun'
+            MYSQL_USER: 'user'
+            MYSQL_PASSWORD: 'password'
+            MYSQL_ROOT_PASSWORD: 'refun123'
           volumes:
             - db-data:/var/lib/mysql
