@@ -18,9 +18,9 @@ services:
         image: mysql/mysql-server:8.0.24
         restart: always
         environment:
-            MYSQL_USER: 'user'
-            MYSQL_ROOT_PASSWORD: 'refun123'
-            MYSQL_DATABASE: mysql-refun
+            MYSQL_USER: "user"
+            MYSQL_ROOT_PASSWORD: "refun123"
+            MYSQL_DATABASE: "mysql-refun"
         ports:
             - "3307:3307"
         command:
