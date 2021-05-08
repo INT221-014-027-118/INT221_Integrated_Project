@@ -1,0 +1,364 @@
+{
+  "products": [
+    {
+      "brand": "HP",
+      "type": "headset",
+      "name": "H100",
+      "price": "280",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        }
+      ],
+      "description": "H100 ได้รับการออกแบบให้มีความแข็งแรงและทนทานซึ่งเหมาะสำหรับอายุการใช้งานที่ยาวนาน\nฟองน้ำรองหูฟังที่สวมใส่สบายและระบายอากาศได้ดีเหมาะสำหรับการเล่นเกมเป็นเวลานาน\nพูดด้วยความมั่นใจว่าไมโครโฟนจะถ่ายทอดเสียงของคุณด้วยความดังและความชัดเจนที่เหมาะสม\nด้วยตัวขับเสียงขนาด 50 มม. H100 มอบประสิทธิภาพที่แข็งแกร่งในการสร้างเสียงความถี่ต่ำและสูง\nสายสัญญาณเสียงหลักได้รับการเสริมสมรรถภาพเพื่อให้ได้คุณภาพที่ยาวนาน",
+      "id": 1
+    },
+    {
+      "brand": "HP",
+      "type": "headset",
+      "name": "H500",
+      "price": "749",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        },
+        {
+          "colorId": 2,
+          "colorName": "Ivory",
+          "hexColor": "#fffff0"
+        },
+        {
+          "colorId": 3,
+          "colorName": "Gray79",
+          "hexColor": "#c9c9c9"
+        }
+      ],
+      "description": "ลำโพงขนาด 50มม.ความต้านทานลำโพง 22โอมห์\nUSB LED Backlight. Volume Control\nไมค์โครโฟนตัดสัญญาณเสียงรบกวน\nAudio Jack 3.5มม.\nสายยาว 2.15 เมตร",
+      "id": 2
+    },
+    {
+      "brand": "HP",
+      "type": "headset",
+      "name": "H300",
+      "price": "625",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        },
+        {
+          "colorId": 2,
+          "colorName": "Ivory",
+          "hexColor": "#fffff0"
+        },
+        {
+          "colorId": 5,
+          "colorName": "Light blue",
+          "hexColor": "#57bfff"
+        }
+      ],
+      "description": "Headset that uses 4D analog loudspeaker displacement technology to let you feel the sound.\nConvenient Control - Flexible mic for uncompromised vocal clarity.\nVolume control is a wheel design on the back the left ear of Headset.\nActivate the vibration driver by pressing the control button to deliver powerful amplified bass effects.\nThe 3.5mm audio connections allow for multiple device compatibility and quality sound. The USB connection is for powering the LED lighting effects only.",
+      "id": 3
+    },
+    {
+      "brand": "HP",
+      "type": "headset",
+      "name": "H220",
+      "price": "330",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        },
+        {
+          "colorId": 3,
+          "colorName": "Gray79",
+          "hexColor": "#c9c9c9"
+        }
+      ],
+      "description": "แสงไฟ LED ทำให้คุณโดดเด่นท่ามกลางจากฝูงชน\nที่อุดหูที่เป็นมิตรต่อผิวหนังและระบายอากาศได้ดีเพื่อความสบายที่ยั่งยืน\nไมโครโฟนป้องกันเสียงรบกวนสูงเพื่อป้องกันเสียงรบกวน\n40mm speaker delivers stable and elegant sound\nลำโพง 40 มม. ให้เสียงที่มีเสถียรภาพและหรูหรา",
+      "id": 4
+    },
+    {
+      "brand": "HyperX",
+      "type": "headset",
+      "name": "HyperX Cloud Stinger",
+      "price": "1790",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        }
+      ],
+      "description": "HyperX Cloud Stinger™ คือชุดหูฟังที่เหมาะอย่างยิ่งสำหรับเกมเมอร์ที่กำลังมองหาชุดหูฟังน้ำหนักเบาที่สวมใส่ได้สบาย\nให้คุณภาพเสียงระดับสุดยอดและมีฟังก์ชั่นอำนวยความสะดวกในการใช้งาน\nอุปกรณ์มีน้ำหนักเพียง 275 กรัม\nคล้องคอได้โดยไม่รำคาญ\nที่ครอบหูหมุนได้ 90 องศาเพื่อให้โอบกระชับได้พอดีมากที่สุด\nไดร์เวอร์กำหนดทิศทางขนาด 50 มม. ช่วยกำหนดตำแหน่งเสียงได้โดยตรงไปยังช่องหู ทำให้จ่ายเสียงได้อย่างแม่นยำและมีคุณภาพครบทุกรายละเอียดตามมาตรฐานเกมเมอร์\nสวมใส่ได้สบายเป็นเวลานานขณะเล่นเกม เลือกใช้เมมโมรี่โฟม HyperX ที่มีคุณภาพสูง",
+      "id": 5
+    },
+    {
+      "brand": "HyperX",
+      "type": "headset",
+      "name": "HyperX Cloud Alpha S",
+      "price": "3990",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        },
+        {
+          "colorId": 4,
+          "colorName": "Pink",
+          "hexColor": "#ffa5b5"
+        },
+        {
+          "colorId": 5,
+          "colorName": "Light blue",
+          "hexColor": "#57bfff"
+        }
+      ],
+      "description": "ระบบเสียง 7.1 เซอร์ราวด์ปรับแต่งเฉพาะโดย HyperX\nแถบเลื่อนปรับเสียงเบส\nไดร์เวอร์ HyperX สองช่องทาง\nความลงตัวทั้งในเกมและโปรแกรมแชท\nความสบายในแบบ HyperX\nโครงทำจากอะลูมิเนียมมีความทนทาน\nมิกเซอร์ควบคุมเสียงระดับสูง\nไมค์ตัดเสียงรบกวนแบบถอดแยกได้พร้อมสายถัก",
+      "id": 6
+    },
+    {
+      "brand": "Razer",
+      "type": "keyboard",
+      "name": "KEYBOARD RAZER CYNOSA V2",
+      "price": "1490",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        }
+      ],
+      "description": "แต่งแต้มสีสันการเล่นของคุณให้สมจริงด้วย Razer Cynosa V2 คีย์บอร์ดเกมไฟ RGB\nในแต่ละครั้งที่กดจะมีเสียงที่เงียบและรองรับแรงกระแทกทำให้ใช้งานได้อย่างสบายเป็นพิเศษสำหรับการเล่นเกมเป็นเวลานาน\nปรับแต่งคีย์บอร์ดเกม RGB ในแบบของคุณด้วยสีมากกว่า 16.8 ล้านสีและชุดเอฟเฟกต์ให้เลือก\nเอฟเฟกต์แสงแบบไดนามิกที่เกิดขึ้นในขณะที่คุณเล่นเกมในเกมที่รวม Chroma กว่า 150 รายการเช่น Fortnite, Apex Legends, Warframe\nเล่นเกมได้อย่างมีประสิทธิภาพมากขึ้นด้วยการทำแผนที่คำสั่งของคุณผ่าน Razer Synapse 3",
+      "id": 7
+    },
+    {
+      "brand": "Razer",
+      "type": "keyboard",
+      "name": "KEYBOARD RAZER ORNATA V2",
+      "price": "2490",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        },
+        {
+          "colorId": 4,
+          "colorName": "Pink",
+          "hexColor": "#ffa5b5"
+        },
+        {
+          "colorId": 7,
+          "colorName": "Green",
+          "hexColor": "#008972"
+        }
+      ],
+      "description": "Razer Hybrid Mecha-Membrane Technology\nMulti-Function Digital Wheel and Media Keys\nPowered by Razer Chroma Rgb",
+      "id": 8
+    },
+    {
+      "brand": "Ducky",
+      "type": "keyboard",
+      "name": "One 2 Horizon TKL Mechanical",
+      "price": "3490",
+      "colors": [
+        {
+          "colorId": 6,
+          "colorName": "Blue",
+          "hexColor": "#365aad"
+        }
+      ],
+      "description": "One2 เป็นคีย์บอร์ดจากค่ายเกมมิ่งเกียร์ Ducky ของไต้หวัน ออกแบบด้วยดีไซนืคลาสสิคและใช้สีโทนสว่างสดใส่อยู่ เทา-ฟ้า และมีการสุ่ม Key Caps ของปุ่มสำคัญ ๆ แถมมาให้ใน 4 สีที่แตกต่างกันไปได้แก่ แดง เหลือง น้ำเงิน เขียว ส่วนราคานั้นก็จัดอยู่ในเกณฑ์ปานกลางสามารถเข้าถึงได้ง่าย ๆ ตัวบอร์ดมีลูกเล่น LED ส่องสว่างอยู่ใต้แป้นพิมพ์ และสามารถ กันฝุ่นกันน้ำในระดับหนึ่ง ฉะนั้นเหมาะสมกับคนที่ใช้โต๊ะคอมแทนโต๊ะอาหารได้เป็นอย่างดี ตัวคีย์บอร์ดมาพร้อมกับ Cherry Red MX ของแท้จากเยอรมันที่รองรับการกดได้ถึง 50 ล้านครั้งเป็นอย่างน้อย อีกทั้งยังมีความโดดเด่นในเรื่องของจังหวะการกดที่รวดเร็วลื่นไหล ตอบสนองความต้องการของเกมเมอร์สายไหวพริบดีทด้วยระยะการออกคำสัง่ที่สั้นเพียง 4 mm เท่านั้น",
+      "id": 9
+    },
+    {
+      "brand": "Logitech",
+      "type": "keyboard",
+      "name": "G915 TKL",
+      "price": "6990",
+      "colors": [
+        {
+          "colorId": 2,
+          "colorName": "Ivory",
+          "hexColor": "#fffff0"
+        },
+        {
+          "colorId": 3,
+          "colorName": "Gray79",
+          "hexColor": "#c9c9c9"
+        }
+      ],
+      "description": "G915 TKL มาพร้อมกับระบบไร้สายเกรดมือโปร LIGHTSPEED ระบบ LIGHTSYNC RGB ขั้นสูง และสวิตช์เชิงกลโครงต่ำประสิทธิภาพสูง สร้างขึ้นอย่างพิถีพิถันจากวัสดุคุณภาพพรีเมี่ยม G915 TKL จึงมีดีไซน์ที่ล้ำสมัย ด้วยความงาม ความแข็งแกร่ง และประสิทธิภาพที่ไม่มีใครทัดเทียม ทั้งหมดนี้อัดแน่นอยู่ในรูปทรงขนาดกะทัดรัดกว่าที่เคย G915 TKL มิติใหม่แห่งการเล่น",
+      "id": 10
+    },
+    {
+      "brand": "Logitech",
+      "type": "mouse",
+      "name": "G102",
+      "price": "690",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        },
+        {
+          "colorId": 2,
+          "colorName": "Ivory",
+          "hexColor": "#fffff0"
+        }
+      ],
+      "description": "พร้อมเล่น\nใช้เวลาที่คุณมีในเกมให้คุ้มค่าที่สุดด้วยเมาส์เกมมิ่ง G102 ที่มีเทคโนโลยี LIGHTSYNC เซ็นเซอร์เกรดเกมมิ่งและดีไซน์คลาสสิก 6 ปุ่ม เติมไฟให้กับเกมของคุณ ... และโต๊ะของคุณด้วยเช่นกัน\n\nเซ็นเซอร์เกรดเกรมมิ่ง\nรับการติดตามเคอร์เซอร์ที่แม่นยำและประสิทธิภาพในการตอบสนองด้วยเซ็นเซอร์เกรดเกมมิ่ง ด้วยความไวที่สามารถปรับได้จาก 200-8,000 DPI เลือกระดับที่ดีที่สุดที่เหมาะกับความชอบในการเล่นของคุณได้เลย ใช้ซอฟต์แวร์ Logitech G HUB เพื่อตั้งโปรแกรมพรีเซ็ตสูงสุด 5 รายการ\n\nการออกแบบที่ผ่านการทดสอบแล้วและเชื่อถือได้\nดีไซน์คลาสสิกหกปุ่มให้ทั้งความสบายและความมั่นใจเพื่อให้คุณสามารถสำรวจ ร่ายคาถา และเล่นได้อย่างที่ใจคุณต้องการ ใช้ซอฟต์แวร์ Logitech G HUB เพื่อกำหนดคำสั่งในเกม การควบคุมระบบ หรือชุดปุ่มให้กับปุ่มต่างๆ เพื่อให้การเล่นเกมของคุณเป็นเรื่องง่าย",
+      "id": 11
+    },
+    {
+      "brand": "Logitech",
+      "type": "mouse",
+      "name": "G603",
+      "price": "2990",
+      "colors": [
+        {
+          "colorId": 1,
+          "colorName": "Black",
+          "hexColor": "#000000"
+        }
+      ],
+      "description": "Logitech G603 Gaming Mouse ไร้สาย LIGHTSPEED \n                           \nG603 พร้อมด้วยเซ็นเซอร์ HERO ซึ่งปฏิวัติวงการและเทคโนโลยีไร้สาย LIGHTSPEED มอบสุดยอดประสิทธิภาพที่แม่นยำและสม่ำเสมอ ความก้าวหน้าในอายุการใช้งานแบตเตอรี่ที่กำหนดมาตรฐานใหม่ในการเล่นเกมด้วยระบบไร้สาย\n\nเซ็นเซอร์สำหรับการเล่นเกมเจเนอเรชันถัดไป\nHERO เป็นออปติคอลเซ็นเซอร์ปฏิวัติวงการใหม่ ออกแบบโดย Logitech G เพื่อให้ประสิทธิภาพเหนือระดับ และประหยัดพลังงานได้มากขึ้นถึง 10 เท่า (เปรียบเทียบกับรุ่นก่อนหน้า) เซ็นเซอร์ HERO มอบประสิทธิภาพความแม่นยำและความสม่ำเสมอที่ยอดเยี่ยมโดยไม่ต้องปรับความราบรื่น การกรอง หรือการเร่งความเร็วตลอดช่วง DPI (200-12,000 DPI)\n\nLIGHTSPEED ไร้สาย\nด้วยงานวิศวกรรมและการออกแบบแบบ end-to-end ทาง Logitech G ได้พัฒนาโซลูชันไร้สายที่ทนทานเพื่อช่วยแก้ปัญหาพื้นฐานของความล่าช้า ความเสถียร และการเชื่อมต่อ ผลลัพธ์สุดท้ายคือ LIGHTSPEED ซึ่งเป็นโซลูชันไร้สายระดับมือโปรที่ให้ประสิทธิภาพการทำงานเหมือนแบบมีสาย",
+      "id": 12
+    },
+    {
+      "brand": "Signo",
+      "type": "mouse",
+      "name": "GM-951",
+      "price": "390",
+      "colors": [
+        {
+          "colorId": 4,
+          "colorName": "Pink",
+          "hexColor": "#ffa5b5"
+        }
+      ],
+      "description": "7 MACRO KEYS\n7 BACKLIGHTING MODE\nHUANO SWITCH TECHNOLOGY (10 MILLION CLICKS)\nSUNPLUS 6651B SENSOR TECHNOLOGY\nONBOARD MEMORY INSIDE 8K\nDPI SWITCHING TECHNOLOGY WITH 200-6400 DPI\nRGB 16.8 MILLION COLORS BACKLIGHTING\nNYLON CORD WITH GOLD USB 2.0 PORT\nCORD LENGTH 1.8 M.\nPLUG & PLAY",
+      "id": 13
+    },
+    {
+      "brand": "Sony",
+      "type": "mouse",
+      "name": "4wy46je6",
+      "price": "3",
+      "colors": [
+        {
+          "colorId": 5,
+          "colorName": "Light blue",
+          "hexColor": "#57bfff"
+        }
+      ],
+      "description": "",
+      "warranty": 0,
+      "launchDate": "2021-04-08",
+      "id": 14
+    }
+  ],
+  "colors": [
+    {
+      "colorId": 1,
+      "colorName": "Black",
+      "hexColor": "#000000"
+    },
+    {
+      "colorId": 2,
+      "colorName": "Ivory",
+      "hexColor": "#fffff0"
+    },
+    {
+      "colorId": 3,
+      "colorName": "Gray79",
+      "hexColor": "#c9c9c9"
+    },
+    {
+      "colorId": 4,
+      "colorName": "Pink",
+      "hexColor": "#ffa5b5"
+    },
+    {
+      "colorId": 5,
+      "colorName": "Light blue",
+      "hexColor": "#57bfff"
+    },
+    {
+      "colorId": 6,
+      "colorName": "Blue",
+      "hexColor": "#365aad"
+    },
+    {
+      "colorId": 7,
+      "colorName": "Green",
+      "hexColor": "#008972"
+    },
+    {
+      "colorId": 8,
+      "colorName": "Purple",
+      "hexColor": "#6857ab"
+    }
+  ],
+  "brands": [
+    {
+      "brandId": 1,
+      "brandName": "Asus"
+    },
+    {
+      "brandId": 2,
+      "brandName": "Acer"
+    },
+    {
+      "brandId": 3,
+      "brandName": "Sony"
+    },
+    {
+      "brandId": 4,
+      "brandName": "Logitech"
+    },
+    {
+      "brandId": 5,
+      "brandName": "HyperX"
+    },
+    {
+      "brandId": 6,
+      "brandName": "Microsoft"
+    },
+    {
+      "brandId": 7,
+      "brandName": "Signo"
+    },
+    {
+      "brandId": 8,
+      "brandName": "HP"
+    },
+    {
+      "brandId": 9,
+      "brandName": "Xiaomi"
+    },
+    {
+      "brandId": 10,
+      "brandName": "Razer"
+    },
+    {
+      "brandId": 11,
+      "brandName": "Ducky"
+    },
+    {
+      "brandId": 12,
+      "brandName": "Signo"
+    }
+  ]
+}
+
