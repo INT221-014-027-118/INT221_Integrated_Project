@@ -23,6 +23,5 @@ services:
             MYSQL_DATABASE: "mysql-refun"
         ports:
             - "3307:3307"
-        command:
         volumes:
             - "./db.sql:/var/lib/mysql"
