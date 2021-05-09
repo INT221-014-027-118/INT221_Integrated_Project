@@ -8,7 +8,11 @@ services:
         links:
             - database   
         environment:
-            - DATABASE_HOST= database
+            - DATABASE_HOST=database
+            - DATABASE_USER=adminUser
+            - DATABASE_PASSWORD=password
+            - DATABASE_NAME=mysql-refun
+            - DATABASE_PORT=3306    
         depends_on:
             - database
     frontend:
@@ -24,9 +28,9 @@ services:
         image: mysql/mysql-server:8.0.24
         restart: always
         environment:
-            MYSQL_USER: "user"
-            MYSQL_ROOT_PASSWORD: "refun123"
-            MYSQL_DATABASE: "mysql-refun"
+            - MYSQL_ROOT_PASSWORD=refun123
+            - MYSQL_DATABASE=mysql-refun
+            - MYSQL_USER=user
         ports:
             - "3306:3306"
         volumes:
