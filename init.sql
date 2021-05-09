@@ -126,5 +126,5 @@ INSERT INTO `productcolor` (`productid`, `colorid`) VALUES
 (10, 902),
 (10, 903);
 
-create user 'user'@'%' identified by 'password';
-GRANT ALL PRIVILEGES ON *.* TO 'user'@'%';
+create user 'adminUser'@'%' identified by 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'adminUser'@'%';
