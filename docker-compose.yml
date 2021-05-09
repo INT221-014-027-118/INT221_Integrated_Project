@@ -7,6 +7,8 @@ services:
         restart: always
         links:
             - database   
+        environment:
+            - DATABASE_HOST= database
         depends_on:
             - database
     frontend:
