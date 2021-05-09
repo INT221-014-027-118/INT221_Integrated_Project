@@ -71,7 +71,6 @@ export default {
     props: {
         type: String,
         productId: String,
-        itemImgTest: String,
         productPassing: Object,
     },
     data() {
@@ -93,7 +92,6 @@ export default {
                 name: "ProductsListTypes",
                 params: { type: this.product.type.typeName },
             });
-            this.$emit("close-item", false);
         },
         showTextColor(color) {
             this.showText = `${color}`;
