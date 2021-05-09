@@ -1,3 +1,6 @@
+ALTER USER 'adminUser'@'%' IDENTIFIED BY 'password';
+GRANT ALL PRIVILEGES ON *.* TO 'adminUser'@'%';
+
 CREATE TABLE brand (
     brandid    SMALLINT NOT NULL,
     brandname  VARCHAR(40) NOT NULL
@@ -126,5 +129,4 @@ INSERT INTO `productcolor` (`productid`, `colorid`) VALUES
 (10, 902),
 (10, 903);
 
-create user 'adminUser'@'%' identified by 'password';
-GRANT ALL PRIVILEGES ON *.* TO 'adminUser'@'%';
+
