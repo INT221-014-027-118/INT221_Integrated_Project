@@ -7,7 +7,7 @@ services:
         restart: always
         links:
             - database   
-          environment:
+        environment:
             - DATABASE_HOST= database
         depends_on:
             - database
