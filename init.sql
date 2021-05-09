@@ -1,4 +1,4 @@
-ALTER USER 'adminUser'@'%' IDENTIFIED BY 'password';
+CREATE USER 'adminUser'@'%' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON *.* TO 'adminUser'@'%';
 
 CREATE TABLE brand (
