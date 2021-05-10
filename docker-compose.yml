@@ -23,7 +23,7 @@ services:
         build: Front-end
         container_name: frontend
         ports:
-            - "9090:9090"
+            - "9090:80"
         restart: on-failure
         depends_on:
             - backend
