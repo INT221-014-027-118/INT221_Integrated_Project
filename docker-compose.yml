@@ -2,8 +2,6 @@ services:
     backend:
         build: Back-end
         container_name: backend
-        ports:
-            - "9091:9091"
         restart: on-failure
         environment:
             - DATABASE_HOST=database
