@@ -26,19 +26,19 @@ services:
             - MYSQL_USER=user
         volumes:
             - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-    # reverse-poxy:
-    #     image: nginx
-    #     container_name: reverse-poxy
-    #     depends_on:
-    #         - frontend
-    #         - backend
-    #         - database
-    #     volumes: 
-    #         - ./poxy/nginx.conf:/etc/nginx/nginx.conf
-    #     restart: always
-    #     expose:
-    #         - 80
-    #     ports:
-    #         - "443:443"
-    #         - "80:80"
+    reverse-poxy:
+        image: nginx
+        container_name: reverse-poxy
+        depends_on:
+            - frontend
+            - backend
+            - database
+        volumes: 
+            - ./poxy/nginx.conf:/etc/nginx/nginx.conf
+        restart: always
+        expose:
+            - 80
+        ports:
+            - "443:443"
+            - "80:80"
         
