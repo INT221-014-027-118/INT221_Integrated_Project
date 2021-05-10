@@ -34,10 +34,8 @@ services:
             - backend
             - database
         volumes: 
-            - ./poxy/nginx.conf:/etc/nginx/nginx.conf
+            - ./nginx.conf:/etc/nginx/nginx.conf
         restart: always
-        expose:
-            - 80
         ports:
             - "80:80"
         
