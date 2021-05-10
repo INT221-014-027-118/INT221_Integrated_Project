@@ -1,6 +1,6 @@
 CREATE USER 'adminUser'@'%' IDENTIFIED BY 'password';
 
-GRANT ALL PRIVILEGES ON *.* TO 'adminUser'@'%';
+GRANT ALL ON *.* TO 'adminUser'@'%';
 
 CREATE TABLE brand (
     brandid    SMALLINT NOT NULL,
@@ -72,10 +72,9 @@ INSERT INTO `brand` (`brandid`, `brandname`) VALUES
 (1006, 'Microsoft'),
 (1007, 'Signo'),
 (1008, 'HP'),
-(1009, 'Xiaomi'),
-(1010, 'Razer'),
-(1011, 'Ducky'),
-(1012, 'Signo');
+(1009, 'Razer'),
+(1010, 'Ducky'),
+(1011, 'Signo');
 
 INSERT INTO `type` (`typeid`, `typename`) VALUES
 (301, 'headset'),
@@ -86,16 +85,14 @@ INSERT INTO `color` (`colorid`, `colorname`, `hexcolor`) VALUES
 (901, 'Black', '#000000'),
 (902, 'Ivory', '#fffff0'),
 (903, 'Gray79', '#c9c9c9'),
-(904, 'Pink', '#ffa5b5'),
+(904, 'Blue Bell', '#9297C4'),
 (905, 'Light blue', '#57bfff'),
 (906, 'Blue', '#365aad'),
 (907, 'Green', '#008972'),
-(908, 'Purple', '#6857ab');
-
-
-
-
-
+(908, 'Celadon', '#96E6B3'),
+(909, 'Orange Yellow Crayola','#FFD166'),
+(910, 'Imperial Red','#EF233C'),
+(911, 'Pink', '#ffa5b5'),
 
 
 

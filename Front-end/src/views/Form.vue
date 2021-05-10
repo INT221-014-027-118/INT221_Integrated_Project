@@ -104,7 +104,7 @@
 
                     <div class="px-3 mb-6 lg:w-full md:mb-0 relative" :class="{ hidden: activeClose }">
                         <label class="label-css" for="description">File *</label>
-                        <input class="input-css" id="file" v-on:change="onFileChange($event)" type="file" :class="{ 'ring ring-red-400': invalid.img }" />
+                        <input class="input-css" id="file" v-on:change="onFileChange($event)" type="file" :class="{ 'ring ring-red-400': invalid.img }" accept="image/x-png,image/gif,image/jpeg" />
                         <span v-if="invalid.img" class="absolute -bottom-3 left-3 sm:bottom-2 sm:left-1/2 transform sm:-translate-x-1/2 font-mono text-red-500 select-none text-sm"
                             >Please choose image</span
                         >
