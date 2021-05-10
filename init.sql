@@ -92,7 +92,7 @@ INSERT INTO `color` (`colorid`, `colorname`, `hexcolor`) VALUES
 (908, 'Celadon', '#96E6B3'),
 (909, 'Orange Yellow Crayola','#FFD166'),
 (910, 'Imperial Red','#EF233C'),
-(911, 'Pink', '#ffa5b5'),
+(911, 'Pink', '#ffa5b5');
 
 
 
