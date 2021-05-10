@@ -76,7 +76,7 @@ export default {
     data() {
         return {
             showItem: true,
-            url: `http://137.116.145.41:9091`,
+            url: `http://137.116.145.41/refun`,
             showText: "",
             product: [],
             marginTop: false,
