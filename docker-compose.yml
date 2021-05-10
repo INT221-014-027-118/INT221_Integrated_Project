@@ -5,8 +5,6 @@ services:
     backend:
         build: Back-end
         container_name: backend
-        ports:
-            - "9091:9091"
         restart: on-failure
         environment:
             - DATABASE_HOST=database
@@ -22,8 +20,6 @@ services:
     frontend:
         build: Front-end
         container_name: frontend
-        ports:
-            - "80:9090"
         restart: on-failure
         depends_on:
             - backend
@@ -37,8 +33,6 @@ services:
             - MYSQL_ROOT_PASSWORD=refun123
             - MYSQL_DATABASE=mysql-refun
             - MYSQL_USER=user
-        ports:
-            - "3306:3306"
         volumes:
             - ./init.sql:/docker-entrypoint-initdb.d/init.sql
         networks:
