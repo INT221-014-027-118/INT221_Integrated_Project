@@ -14,17 +14,12 @@ services:
             - DATABASE_PORT=3306    
         depends_on:
             - database
-        networks:
-            - backend
-            - frontend
     frontend:
         build: Front-end
         container_name: frontend
         restart: on-failure
         depends_on:
             - backend
-        networks:
-            - frontend  
     database:
         container_name: database
         image: mysql/mysql-server:8.0.24
@@ -35,8 +30,6 @@ services:
             - MYSQL_USER=user
         volumes:
             - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-        networks:
-            - backend  
     reverse-poxy:
         image: nginx
         container_name: reverse-poxy
