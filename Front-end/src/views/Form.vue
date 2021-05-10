@@ -41,7 +41,7 @@
 
                         <div class="md:w-1/2 px-3 mb-6 md:mb-0">
                             <label class="label-css" for="grid-state">Type *</label>
-                            <div class="relative ">
+                            <div class="relative">
                                 <select class="input-css" id="type" v-model="typeAdd" required :class="{ 'ring ring-red-400': invalid.type }">
                                     <option value="" disabled selected>[ Select Type ]</option>
                                     <option v-for="type in types" :key="type.id" :value="type.typeName">{{ type.typeName }}</option>
@@ -58,7 +58,7 @@
 
                     <div class="relative px-3 mb-6 lg:w-full md:mb-0">
                         <label class="label-css" for="previewImage">color *</label>
-                        <div class="input-css " :class="{ 'ring ring-red-400': invalid.Color }">
+                        <div class="input-css" :class="{ 'ring ring-red-400': invalid.Color }">
                             <div class="flex flex-wrap">
                                 <div v-for="(color, index) in colors" :key="color.colorId">
                                     <base-color :color="color" @active-color="activeColor($event, index)" />
@@ -347,15 +347,7 @@ export default {
     },
     computed: {
         isValid() {
-            return (
-                this.brandAdd !== "" &&
-                this.name !== "" &&
-                this.price !== 0 &&
-                this.typeAdd !== "" &&
-                this.colorsAdd.length !== 0 &&
-                this.launchDate !== "" &&
-                this.previewImage !== null 
-            );
+            return this.brandAdd !== "" && this.name !== "" && this.price !== 0 && this.typeAdd !== "" && this.colorsAdd.length !== 0 && this.launchDate !== "" && this.previewImage !== null;
         },
     },
     async created() {
@@ -401,7 +393,7 @@ export default {
 
 <style scoped>
 .input-css {
-    @apply w-full border border-gray-500 focus:outline-none rounded focus:bg-gray-50 dark:focus:bg-gray-500 py-3 px-5 mb-3 bg-gray-100 dark:bg-gray-600;
+    @apply w-full border border-gray-500 focus:outline-none rounded focus:bg-gray-50 dark:focus:bg-gray-500 py-3 px-5 md:px-10 mb-3 bg-gray-100 dark:bg-gray-600;
 }
 
 .label-css {

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-7 h-7 m-2 text-center rounded-md cursor-pointer flex items-center justify-center" :style="{ backgroundColor: color.hexColor }" @click="activeColor">
+    <div class="w-8 h-8 my-2 mx-2 text-center rounded-md cursor-pointer flex items-center justify-center select-none" :style="{ backgroundColor: color.hexColor }" @click="activeColor">
         <span class="material-icons ring-4 rounded-md ring-offset-gray-100 ring-offset-2" v-show="color.active" :class="{ 'ring-blue-400 text-blue-500': color.active }">
             done
         </span>
