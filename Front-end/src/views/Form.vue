@@ -141,7 +141,7 @@ export default {
             launchDate: "",
             typeAdd: "",
             description: "",
-            url: "http://137.116.145.41:9091",
+            url: "http://137.116.145.41/refun",
             previewImage: null,
             activeClose: true,
             productIds: [],
