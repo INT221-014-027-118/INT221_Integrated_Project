@@ -18,7 +18,7 @@ services:
         #     - client
         #     - server
     frontend:
-        build: Front-end
+        build: ./Front-end
         container_name: frontend
         depends_on:
             - backend
