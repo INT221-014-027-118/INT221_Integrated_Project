@@ -120,9 +120,9 @@
                 </div>
             </div>
         </form>
-    </div>
     <div v-show="isLoad" class="h-screen w-full flex items-center justify-center">
         <i class="material-icons text-4xl animate-spin" v-show="isLoad"> autorenew </i>
+    </div>
     </div>
 </template>
 
