@@ -34,7 +34,7 @@ export default {
             brandsObjs: [],
             isLoad: Boolean,
             item: Object,
-            url:process.env.VUE_APP_API
+            url:'http://20.205.208.111/refun'
         };
     },
     methods: {

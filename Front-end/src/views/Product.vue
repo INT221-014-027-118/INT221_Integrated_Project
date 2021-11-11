@@ -76,7 +76,7 @@ export default {
     data() {
         return {
             showItem: true,
-            url: process.env.VUE_APP_API,
+            url: 'http://20.205.208.111/refun',
             showText: "",
             product: [],
             marginTop: false,

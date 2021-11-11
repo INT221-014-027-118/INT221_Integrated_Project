@@ -82,7 +82,7 @@ export default {
             image: "",
             hoverEditer: false,
             btnEditer: false,
-            url:'http://137.116.145.41/refun'
+            url:'http://20.205.208.111/refun'
         };
     },
     props: {
