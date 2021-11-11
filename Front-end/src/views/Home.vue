@@ -73,7 +73,7 @@ export default {
                 },
             ],
             types: [],
-            url: "http://137.116.145.41/refun",
+            url: process.env.VUE_APP_API,
         };
     },
     methods: {

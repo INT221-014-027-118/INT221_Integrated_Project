@@ -141,7 +141,7 @@ export default {
             launchDate: "",
             typeAdd: "",
             description: "",
-            url: "http://137.116.145.41/refun",
+            url: process.env.VUE_APP_API,
             previewImage: null,
             activeClose: true,
             productIds: [],
