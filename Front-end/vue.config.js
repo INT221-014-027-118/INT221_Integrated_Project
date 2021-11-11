@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/Front-end/'
+    publicPath: './'
 }
