@@ -32,7 +32,7 @@ const routes = [{
     props: true
   },
   {
-    path: '/products/:type',
+    path: '/products=:type',
     name: 'ProductsListTypes',
     component: () => import( /* webpackChunkName: "productsListTypr" */ '../views/ProductsList.vue'),
     props: true,
