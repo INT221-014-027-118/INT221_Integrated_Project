@@ -20,7 +20,7 @@ const routes = [{
     props: true
   },
   {
-    path: '/edit/:itemId',
+    path: '/edit=:itemId',
     name: 'FormEdit',
     component: () => import( /* webpackChunkName: "edit" */ '../views/Form.vue'),
     props: true
